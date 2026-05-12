@@ -42,11 +42,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE   &kp N1  &kp N2          &kp N3    &kp N4        &kp N5                          &kp N6         &kp N7         &kp N8      &kp N9             &kp N0    &kp PLUS
-&kp TAB     &kp Q   &kp W           &kp F     &kp P         &kp G                           &kp SEMICOLON  &kp L          &kp U       &kp Y              &kp J     &kp UNDERSCORE
-&kp ESCAPE  &kp A   &kp R           &kp S     &kp T         &kp D                           &kp H          &kp N          &kp E       &kp I              &kp O     &kp SQT
-&kp LCTRL   &kp Z   &kp X           &kp C     &kp V         &kp B      &kp C_MUTE    &none  &kp K          &kp M          &kp COMMA   &kp DOT            &kp FSLH  &kp ENTER
-                    &kp LEFT_SHIFT  &kp LALT  &kp LEFT_WIN  &kp SPACE  &mo 1         &mo 2  &kp ENTER      &kp BACKSPACE  &kp DELETE  &kp RIGHT_CONTROL
+&kp GRAVE   &kp N1          &kp N2  &kp N3    &kp N4        &kp N5                          &kp N6         &kp N7         &kp N8     &kp N9      &kp N0    &kp EQUAL
+&kp TAB     &kp Q           &kp W   &kp F     &kp P         &kp G                           &kp SEMICOLON  &kp L          &kp U      &kp Y       &kp J     &kp MINUS
+&kp ESCAPE  &kp A           &kp R   &kp S     &kp T         &kp D                           &kp H          &kp N          &kp E      &kp I       &kp O     &kp SQT
+&kp LCTRL   &kp LEFT_SHIFT  &kp X   &kp C     &kp V         &kp B      &kp C_MUTE    &none  &kp K          &kp M          &kp COMMA  &kp DOT     &kp FSLH  &kp ENTER
+                            &kp Z   &kp LALT  &kp LEFT_WIN  &kp SPACE  &mo 1         &mo 2  &kp SPACE      &kp BACKSPACE  &kp RCTRL  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -85,10 +85,10 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                            &trans     &trans     &trans      &trans     &trans   &trans
-&trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &trans                                  &kp PG_UP  &trans     &kp UP      &trans     &kp N0   &trans
-&trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK                                &kp PG_DN  &kp LEFT   &kp DOWN    &kp RIGHT  &kp DEL  &kp BSPC
-&trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans        &trans      &trans     &mkp LCLK  &sys_reset  &trans     &trans   &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                            &trans     &trans     &trans      &trans     &trans        &trans
+&trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &trans                                  &kp PG_UP  &trans     &kp UP      &trans     &kp N0        &trans
+&trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK                                &kp PG_DN  &kp LEFT   &kp DOWN    &kp RIGHT  &kp DEL       &kp BSPC
+&trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans        &trans      &trans     &mkp LCLK  &sys_reset  &trans     &kp QUESTION  &trans
                           &trans        &trans        &trans        &trans        &sys_reset    &sys_reset  &trans     &trans     &trans      &trans
             >;
 
