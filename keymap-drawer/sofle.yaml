@@ -87,7 +87,7 @@ layers:
   - UP
   - '['
   - ']'
-  - {t: \, h: toggle}
+  - \
   - {t: ▽, type: trans}
   - LALT
   - LCTRL
